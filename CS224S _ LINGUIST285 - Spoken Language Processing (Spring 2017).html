@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)https://web.stanford.edu/class/cs224s/index.html -->
+<html lang="en" class="gr__web_stanford_edu"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS224S / LINGUIST285 - Spoken Language Processing (Spring 2017)</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./CS224S _ LINGUIST285 - Spoken Language Processing (Spring 2017)_files/bootstrap.min.css">
+  <link rel="stylesheet" href="./CS224S _ LINGUIST285 - Spoken Language Processing (Spring 2017)_files/bootstrap-theme.min.css">
+
+  <!-- Google fonts -->
+  <link href="./CS224S _ LINGUIST285 - Spoken Language Processing (Spring 2017)_files/css" rel="stylesheet" type="text/css">
+
+  <!-- Google Analytics -->
+<script async="" src="./CS224S _ LINGUIST285 - Spoken Language Processing (Spring 2017)_files/analytics.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-96598364-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  <link rel="stylesheet" type="text/css" href="./CS224S _ LINGUIST285 - Spoken Language Processing (Spring 2017)_files/style.css">
+
+</head>
+
+<body data-gr-c-s-loaded="true">
+
+<div id="header">
+  <a href="http://nlp.stanford.edu/">
+    <img src="./CS224S _ LINGUIST285 - Spoken Language Processing (Spring 2017)_files/nlp-logo.gif" style="height:50px; float: left; margin-left: 20px;">
+  </a>
+  <h1>CS224S / LINGUIST285 - Spoken Language Processing</h1>
+  <div style="clear:both;"></div>
+</div>
+
+
+<div id="teaser">
+  <img src="./CS224S _ LINGUIST285 - Spoken Language Processing (Spring 2017)_files/cs224s_wave.png">
+</div>
+
+<div style="text-align:center; padding:40px 0px 40px 0px;">
+
+    <!-- <button type="button" class="btn btn-success btn-lg">Course Notes (updated each week)</button> -->
+  <a href="https://web.stanford.edu/class/cs224s/syllabus.html">
+    <button type="button" class="btn btn-success btn-lg">Syllabus</button>
+  </a>
+
+  <a href="https://calendar.google.com/calendar/embed?src=ceiue0e6uq1bt7aqup5r72vjgo%40group.calendar.google.com&amp;ctz=America/Los_Angeles">
+    <button type="button" class="btn btn-info btn-lg">Calendar</button>
+  </a>
+
+  <a href="https://piazza.com/class/j0qbtwsddft6na">
+    <button type="button" class="btn btn-danger btn-lg">Piazza forum</button>
+  </a>
+</div>
+
+<div class="sechighlight">
+<div class="container sec">
+  <h2>Course Description</h2>
+  <div id="coursedesc">
+	      Introduction to spoken language technology with an
+	      emphasis on dialogue and conversational systems. Automatic speech
+	      recognition, speech synthesis, dialogue management, and applications
+	      to digital assistants, search, and spoken language understanding
+	      systems. Covers state-of-the-art approaches based on deep learning as
+	      well as traditional methods.
+	      Through lectures, programming assignments, and a course
+	      project students will learn the concepts and application
+	      details to build modern systems for spoken language processing.
+
+<br>
+<br>
+<b>Please join us for the course final project poster session on Wednesday, June 7. 
+<a href="http://web.stanford.edu/class/cs224s/invitation.html">  Poster session details</a></b>
+<br>
+</div>
+
+</div>
+</div>
+
+<div class="container sec">
+<div class="row">
+  <div class="col-md-4">
+    <h2>Course Instructor</h2>
+    <div class="instructor">
+      <a href="http://ai.stanford.edu/~amaas/">
+      <div class="instructorphoto"><img src="./CS224S _ LINGUIST285 - Spoken Language Processing (Spring 2017)_files/amaas_headshot.jpg"></div>
+      <div>Andrew Maas</div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-8">
+    <h2>Teaching Assistants</h2>
+    <div class="instructor">
+      <a href="https://web.stanford.edu/~jiweil/">
+      <div class="instructorphoto"><img src="./CS224S _ LINGUIST285 - Spoken Language Processing (Spring 2017)_files/jiwei.png"></div>
+      <div>Jiwei Li (Head TA)</div>
+      </a>
+    </div>
+    <div class="instructor">
+      <div class="instructorphoto"><img src="./CS224S _ LINGUIST285 - Spoken Language Processing (Spring 2017)_files/rish.jpg"></div>
+      <div>Rish Bhargava</div>
+    </div>
+    <div class="instructor">
+      <div class="instructorphoto"><img src="./CS224S _ LINGUIST285 - Spoken Language Processing (Spring 2017)_files/pujun_bhatnagar.JPG"></div>
+      <div>Pujun Bhatnagar</div>
+    </div>
+    <div class="instructor">
+      <a href="https://www.linkedin.com/in/berk-coker/">
+      <div class="instructorphoto"><img src="./CS224S _ LINGUIST285 - Spoken Language Processing (Spring 2017)_files/berk.png"></div>
+      <div>Berk Coker</div>
+      </a>
+    </div>
+    <div class="instructor">
+      <a href="https://www.linkedin.com/in/raghav-gupta-59777b59/">
+      <div class="instructorphoto"><img src="./CS224S _ LINGUIST285 - Spoken Language Processing (Spring 2017)_files/raghav.jpg"></div>
+      <div>Raghav Gupta</div>
+      </a>
+    </div>
+    <div class="instructor">
+      <a href="http://www.anie.me/">
+      <div class="instructorphoto"><img src="./CS224S _ LINGUIST285 - Spoken Language Processing (Spring 2017)_files/allen_nie.jpg"></div>
+      <div>Allen Nie</div>
+      </a>
+    </div>
+    <div class="instructor">
+      <a href="https://www.linkedin.com/in/arjun-seshadri-7a445239">
+      <div class="instructorphoto"><img src="./CS224S _ LINGUIST285 - Spoken Language Processing (Spring 2017)_files/arjun.jpg"></div>
+      <div>Arjun Seshadri</div>
+      </a>
+    </div>
+    <div class="instructor">
+      <a href="https://www.linkedin.com/in/ajay-sohmshetty-68566955">
+      <div class="instructorphoto"><img src="./CS224S _ LINGUIST285 - Spoken Language Processing (Spring 2017)_files/ajay_sohmshetty.jpg"></div>
+      <div>Ajay Sohmshetty</div>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container sec">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Class Time and Location</h2>
+      Spring quarter (April - June, 2017)<br>
+      Lecture: Monday, Wednesday 4:30-5:50pm<br>
+      Location: <a href="https://campus-map.stanford.edu/?srch=Hewlett+Teaching+Center">Hewlett Teaching Center</a> (04-510) Room 201<br>
+    </div>
+    
+    <!--
+    <--div class="col-md-4">
+      <h2>Office Hours</h2>
+      <b>Andrew</b>: Wed 6:00-7:00pm, Huang 219<br>
+      (for research and project discussions)<br><br>
+      TAs:<br>
+      <b>Jiwei</b>: Fri 10:00-11:15am, Gates 2nd floor elevator area
+      (Project discussions only)<br>      
+      <b>Rishabh</b>: Mon 10:00am-12:00pm, Gates 400<br>
+      <b>Ajay</b>: Tue 4:00-6:00pm, Huang Basement<br>
+      <b>Allen</b>: Wed 12:30-2:30pm, Huang Basement<br>
+      <b>Pujun</b>: Thu 11:30-1:30pm, Huang Basement<br>
+      <b>Berk</b>: Thu 1:00-3:00pm, Huang Basement<br>
+    </div> -->
+
+    <!--
+    <div class="col-md-4">
+      <h2>Grading Policy</h2>
+      Assignment #1: 15%<br>
+      Assignment #2: 15%<br>
+      Assignment #3: 15%<br>
+      Midterm: 15%<br>
+      Final Project: 40%<br>
+    </div>
+    -->
+
+    <div class="col-md-6">
+      <h2>Grading Policy</h2>
+      See the <a href="https://web.stanford.edu/class/cs224s/grading.html">Grading Page</a> for more details on grading.
+    </div>
+  </div>
+</div>
+
+<div class="container sec">
+  <div class="row">
+    <!--div class="col-md-4">
+      <h2>Course Discussions</h2>
+      Stanford students: <a href="https://piazza.com/class/ilx0v32x8ce7dh">Piazza </a> (for Stanford students)
+      <br>
+      Online discussions: <a href="http://www.reddit.com/r/CS224d">Reddit Group </a> (for non-Stanford students)
+      <br>
+      Our Twitter account: <a href="https://twitter.com/cs224d">@CS224d</a>
+    </div-->
+    <div class="col-md-6">
+      <h2>Assignment Details</h2>
+      Assignment release dates, due dates, and handouts will be posted on the <a href="https://web.stanford.edu/class/cs224s/syllabus.html">Syllabus Page</a>.
+    </div>
+    <!--div class="col-md-6">
+      <h2>Final Project Details</h2>
+      See the <a href="project.html">Project Page</a> for more details on the final project.
+    </div-->
+  </div>
+</div>
+<div class="container sec">
+  <div class="row">
+      <h2>Useful Reference Texts</h2>
+      <ul>
+      <li>Dan Jurafsky and James H. Martin. <i>Speech and Language Processing (3rd ed. draft)</i> [<a href="https://web.stanford.edu/~jurafsky/slp3/">link</a>]</li>
+      <li>Yoav Goldberg. <i>A Primer on Neural Network Models
+      for Natural Language Processing</i> [<a href="http://u.cs.biu.ac.il/~yogo/nnlp.pdf">link</a>]</li>
+
+      <li>Ian Goodfellow, Yoshua Bengio, and Aaron Courville. <i>Deep Learning</i>. MIT Press. [<a href="http://www.deeplearningbook.org/">link</a>]</li>
+      </ul>
+  </div>
+</div>
+
+<div class="sechighlight">
+<div class="container sec">
+  <h2>Prerequisites</h2>
+  <ul>
+    <li><span class="spanh">Proficiency in Python</span><br>Homework assignments will be in Python (using numpy and tensorflow). There is a tutorial <a href="http://cs231n.github.io/python-numpy-tutorial/">here</a> for those who aren't as familiar with Python. If you have a lot of programming experience but in a different language (e.g. C/C++/Matlab/Javascript) you will probably be fine.</li>
+    <li><span class="spanh">Foundations of Machine Learning and Natural Language Processing</span> (CS 124, CS 221, CS 224N, CS 229 or equivalent)<br> You should be comfortable with basic concepts of machine learning and natural language processing. We do not strictly enforce a particular set of previous courses but students will have to fill in gaps on their own depending on background.</li>
+  </ul>
+</div>
+</div>
+
+<div class="container sec">
+  <h2>FAQ</h2>
+  <div class="qqa">
+    <div class="qq">Can I take this course on credit/no credit basis?</div>
+    <div class="qa">Yes. Credit will be given to those who would have otherwise earned a C- or above.</div>
+  </div>
+  <div class="qqa">
+    <div class="qq">Can I audit or sit in?</div>
+    <div class="qa">In general we are very open to sitting-in guests if you are a member of the Stanford community (registered student, staff, and/or faculty). Out of courtesy, we would appreciate that you first email us or talk to the instructor after the first class you attend.</div>
+  </div>
+  <div class="qqa">
+    <div class="qq">Can I work in groups for the Final Project?</div>
+    <div class="qa">Final projects should be done in groups of three people unless special permission is granted by the teaching staff.</div>
+  </div>
+  <div class="qqa">
+    <div class="qq">I have a question about the class. What is the best way to reach the course staff?</div>
+    <div class="qa">Stanford students please use an internal class forum on
+    Piazza so that other students may benefit from your questions and our
+    answers. If you have a personal matter, email us at the class mailing
+    list <b>cs224s-spr1617-staff@lists.stanford.edu</b>.</div>
+  </div>
+  <!--div class="qqa">
+    <div class="qq">Can I combine the Final Project with another course?</div>
+    <div class="qa">Yes, you may. There are a couple of courses concurrently offered with CS224d that are natural choices, such as CS224u (Natural Language Understanding, by Prof. Chris Potts and Bill MacCartney). If you are taking a related class, please speak to the instructors to receive permission to combine the Final Project assignments.</div>
+  </div-->
+
+</div>
+
+<div class="sechighlight">
+<div id="footer">
+
+  <div id="classicons">
+    Webdesign by Andrej Karpathy
+  </div>
+
+</div>
+</div>
+
+<!-- jQuery and Boostrap -->
+<script src="./CS224S _ LINGUIST285 - Spoken Language Processing (Spring 2017)_files/jquery.min.js"></script>
+<script src="./CS224S _ LINGUIST285 - Spoken Language Processing (Spring 2017)_files/bootstrap.min.js"></script>
+
+
+
+</body></html>
